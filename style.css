@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Roboto:wght@100;300;400&display=swap');
+
+*{
+    /* border: 1px solid black; */
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+}
+body{
+    background-color: whitesmoke;
+}
+.container{
+    height: 400px;
+    width: 500px;
+    background-color: transparent;
+    position: absolute;
+    top: calc(50% - 450px/2 - 0.5px);
+    left: calc(50% - 500px/2 - 0.5px);
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+}
+
+
+/* top main section */
+.top{
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px 10px 0 0;
+}
+.top h1{
+    color: rgb(14, 128, 128);
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.top h3{
+    color: rgb(204, 178, 32);
+    margin-bottom: 20px;
+}
+.top h4{
+    color: rgb(173, 173, 173);
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+
+/* bottom main section */
+.bottom{
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+}
+.btm1{
+    color: white;
+    background-color: rgb(15, 168, 168);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 0 0 0 10px;
+}
+.btm1 .spans{
+    display: flex;
+    flex-direction: row;
+}
+.month{
+    font-size: 12px;
+}
+.btm1 p{
+    font-size: 11px;
+}
+button{
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 10px;
+    color: white;
+    background-color: rgb(179, 236, 22);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: rgb(148, 199, 7);
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+.price{
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.btm1-hd-txt, .btm2-hd-txt{
+    font-size: 15px;
+}
+
+.btm2{
+    color: white;
+    background-color: rgb(1, 185, 185);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 0 0 10px 0;
+}
+.btm2-list{
+    font-size: 10px;
+    line-height: 10px;
+}
+.btm2-list p{
+    margin: 5px 0;
+}
+.btm1, .btm2{
+    width: 50%;
+    padding: 20px;
+}
